@@ -86,17 +86,17 @@ body.page-home::before, body.page-home::after, body.page-home .home-bg-2, body.p
   contain: layout style paint;
 }
 body.page-home::before {
-  background-image: linear-gradient(rgba(30,30,30,0.45), rgba(30,30,30,0.45)), url('../images/home1.jpg');
+  background-image: linear-gradient(rgba(30,30,30,0.45), rgba(30,30,30,0.45)), url('home1.jpg');
   opacity: 1;
   animation: homeBgFade1 15s infinite;
 }
 body.page-home::after {
-  background-image: linear-gradient(rgba(30,30,30,0.45), rgba(30,30,30,0.45)), url('../images/home2.jpg');
+  background-image: linear-gradient(rgba(30,30,30,0.45), rgba(30,30,30,0.45)), url('home2.jpg');
   opacity: 0;
   animation: homeBgFade2 15s infinite;
 }
 body.page-home .home-bg-3 {
-  background-image: linear-gradient(rgba(30,30,30,0.45), rgba(30,30,30,0.45)), url('../images/home3.jpg');
+  background-image: linear-gradient(rgba(30,30,30,0.45), rgba(30,30,30,0.45)), url('home3.jpg');
   opacity: 0;
   animation: homeBgFade3 15s infinite;
 }
